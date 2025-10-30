@@ -3,6 +3,10 @@
 }
 body {
   margin: 0;
+  font-family: var(--main-font);
+  font-size: var(--fs-base);
+  background: var(--primary-color);
+  color: var(--primary-font-color);
 }
 
 .main-image {
