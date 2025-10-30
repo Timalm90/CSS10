@@ -1,14 +1,45 @@
-h3 {
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+ background: var(--primary-color);
+}
+
+
+h1, h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-font-color);
     }
 
+article {
+    position: relative;
+    top: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+section {
+   
+    
+}
 
 .container {
-    display: grid;
-    
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+   
 }
 
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;   
     background-color: aquamarine;
     height: 167px;
     width: 173px;
@@ -16,12 +47,14 @@ h3 {
 
 
 .image p{
+
     opacity:0%
     ;
 }
 
 
 .image:hover p{
+    color: white;
     opacity: 100%;
 }
 
