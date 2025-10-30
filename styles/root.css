@@ -13,4 +13,12 @@
   --fs-h2: 1.5rem;
   --fs-h1: 2.25rem;
   --fs-large: 2.625rem;
+
+  /* desktop font sizes */
+  --fs-desktop-small: 1rem;
+  --fs-desktop-base: 1.25rem;
+  --fs-desktop-normal: 1.4rem;
+  --fs-desktop-h2: 1.875rem;
+  --fs-desktop-h1: 2.8rem;
+  --fs-desktop-large: 3.3rem;
 }
