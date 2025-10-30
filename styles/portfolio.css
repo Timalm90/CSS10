@@ -1,0 +1,29 @@
+h3 {
+    }
+
+
+.container {
+    display: grid;
+    
+}
+
+
+.image {
+    background-color: aquamarine;
+    height: 167px;
+    width: 173px;
+}
+
+
+.image p{
+    opacity:0%
+    ;
+}
+
+
+.image:hover p{
+    opacity: 100%;
+}
+
+
+
