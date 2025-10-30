@@ -54,6 +54,9 @@ body {
     line-height: 2.5rem;
   }
   .blog-post h3 {
-    font-size
+    font-size: var(--fs-desktop-small);
+  }
+  .blog-post h2 {
+    font-size: var(--fs-desktop-h2);
   }
 }
