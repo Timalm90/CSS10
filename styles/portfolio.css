@@ -13,50 +13,64 @@ h1, h2, h3, p {
     color: var(--primary-font-color);
     }
 
-article {
-    position: relative;
-    top: 10vh;
-    margin-left: 10%;
-    margin-right: 10%;
+    article {
+        position: relative;
+        width: 70%;
+        top: 10vh;
+        margin-left: 10%;
+        margin-right: 10%;
 
-}
-
-section {
-   
-    
-}
-
-.container {
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-   
-}
+    }
 
 
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 20px;   
-    background-color: aquamarine;
-    height: 167px;
-    width: 173px;
-}
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-.image p{
+    .box {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
 
-    opacity:0%
-    ;
-}
+        height: 167px;
+        width: 173px;
+    }
+
+    .box:hover {
+        background-color: black;
+    }
+
+    .box:hover img {
+    opacity: 50%;
+
+    }
+    .box img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .box p{
+        position:absolute;
+        opacity:0%
+        ;
+    }
+
+  
+    .box:hover p{
+        color: white;
+        opacity: 100%;
+    }
 
 
-.image:hover p{
-    color: white;
-    opacity: 100%;
-}
 
 
 
