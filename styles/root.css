@@ -4,6 +4,7 @@
   --primary-color: rgba(38, 38, 38, 1);
   --primary-font-color: rgba(255, 255, 255, 1);
   --secondary-font-color: rgba(233, 170, 137, 1);
+  --light-font-color: rgba(202, 202, 202, 1);
 
   /*font sizes */
   --fs-small: 0.75rem;

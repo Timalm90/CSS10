@@ -21,6 +21,26 @@ body {
   object-position: center;
 }
 
+.blog-post {
+  margin: 2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.blog-post h3 {
+  font-size: var(--fs-small);
+  margin-bottom: 0;
+  color: var(--light-font-color);
+}
+.blog-post h2 {
+  font-size: var(--fs-h2);
+  line-height: 2rem;
+  margin-top: 0;
+}
+.blog-post address {
+  color: var(--secondary-font-color);
+  margin-top: 0;
+}
+
 @media (min-width: 1200px) {
   .main-image {
     height: 45rem;
